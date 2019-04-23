@@ -5,8 +5,8 @@
 	#include<unistd.h>
 	
 	int main(){
-		char server_msg[256]="wo bu ai ni";
-		char server_respond[256];
+		char server_msg[1024]="wo bu ai ni";
+		char server_respond[1024];
 		int net_socket;
 		net_socket = socket(AF_INET,SOCK_STREAM,0);
 	
