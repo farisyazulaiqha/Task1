@@ -18,7 +18,7 @@ import java.io.*;
 	
 		PrintWriter rp = new 
 	PrintWriter(clientSocket.getOutputStream());
-		rp.println("wo hen hao");
+		rp.println("wo ai ni");
 		rp.flush();
 	
 		String recvr = ot.readLine();
